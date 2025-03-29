@@ -18,6 +18,7 @@ const ScrollRevealOption = {
   origin: "bottom",
   duration: 1000,
 };
+
 ScrollReveal().reveal(".header_image img", {
   ...ScrollRevealOption,
 });
@@ -35,4 +36,26 @@ ScrollReveal().reveal(".header_container p", {
 ScrollReveal().reveal(".header_btn", {
   ...ScrollRevealOption,
   delay: 1500,
+});
+
+ScrollReveal().reveal(".about_image img", {
+  ...ScrollRevealOption,
+  origin: "left",
+});
+ScrollReveal().reveal(".about_content .section_header", {
+  ...ScrollRevealOption,
+  delay: 500,
+});
+ScrollReveal().reveal(".about_content .section_description", {
+  ...ScrollRevealOption,
+  delay: 1000,
+});
+ScrollReveal().reveal(".about_card", {
+  ...ScrollRevealOption,
+  delay: 1500,
+  interval: 500,
+});
+ScrollReveal().reveal(".price_card", {
+  ...ScrollRevealOption,
+  interval: 500,
 });
