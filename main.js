@@ -59,3 +59,9 @@ ScrollReveal().reveal(".price_card", {
   ...ScrollRevealOption,
   interval: 500,
 });
+
+const swiper = new Swiper('.swiper', {
+  loop: true,
+  slidesPerview: "auto",
+  spaceBetween: 20
+});

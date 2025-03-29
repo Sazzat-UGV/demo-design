@@ -403,7 +403,7 @@ nav {
     padding-top: 4rem;
 }
 
-.client__card {
+.client_card {
     position: relative;
     padding-block: 4rem 2rem;
     padding-inline: 2rem;
@@ -411,7 +411,7 @@ nav {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.client__card img {
+.client_card img {
     position: absolute;
     top: 0;
     left: 2rem;
@@ -419,4 +419,23 @@ nav {
     max-width: 80px;
     border-radius: 100%;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.client_ratings{
+    margin-bottom: 1rem;
+    color: goldenrod;
+}
+.client_card p{
+    margin-bottom: 1rem;
+    color: var(--text-light);
+}
+
+.client_card h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+color:var(--text-dark)
+}
+.client_card h5{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-light);
 }
